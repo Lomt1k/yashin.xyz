@@ -1,0 +1,44 @@
+.about-info {
+  &__heading {
+    color: $color-text-addition;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0 0 10px;
+  }
+
+  &__wrapper {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__icon-wrapper {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  &__title {
+    color: $color-text-main;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+
+  &__subtitle {
+    color: $color-text-secondary;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,21 @@
+///
+/// Global
+/// 
+@import "global/_variables";
+@import "global/_mixins";
+@import "global/_normalize";
+@import "global/_fonts";
+@import "global/_reboot";
+@import "global/_visually-hidden";
+@import "global/container";
+
+///
+/// Blocks
+///
+@import "blocks/header";
+@import "blocks/main-nav";
+@import "blocks/social";
+@import "blocks/about";
+@import "blocks/about-info";
+@import "blocks/history";
+@import "blocks/spoiler";

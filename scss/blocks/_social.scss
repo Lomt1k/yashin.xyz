@@ -1,0 +1,27 @@
+.social {
+  &__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      width: 32px;
+      height: 32px;
+    }
+
+    &:hover,
+    &:focus-visible {
+      outline: none;
+      opacity: 70%;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 8px solid $color-bg-main;
+  background-color: $color-bg-secondary;
+  z-index: 1;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  &__logo {
+    color: $color-text-main;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    font-style: italic;
+    user-select: none;
+    outline: none;
+  }
+}

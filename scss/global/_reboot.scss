@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $ff-noto;
+  font-style: normal;
+  font-weight: 400;
+  color: $color-text-main;
+  margin: 60px 0 0 0;
+  padding: 0;
+  background-color: $color-bg-main;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+a {
+  color: $color-link;
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+}

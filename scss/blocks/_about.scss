@@ -1,0 +1,76 @@
+.about {
+  padding: 20px 0 60px;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+  }
+
+  &__person {
+    background-color: $color-bg-secondary;
+    border-radius: 8px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__person-photo {
+    margin: 0 0 40px;
+    border-radius: 50%;
+  }
+
+  &__person-name {
+    color: $color-text-main;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    user-select: none;    
+  }
+
+  &__person-description {
+    color: $color-text-addition;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    user-select: none;    
+  }
+
+  &__content {
+    background-color: $color-bg-secondary;
+    border-radius: 8px;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__text-wrapper {
+    margin: 0 0 40px;
+  }
+
+  &__text {
+    color: $color-text-secondary;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 10px;
+  }
+
+  &__info-blocks {
+    display: grid;
+    gap: 40px;
+  }
+
+  &__sticker {
+    position: absolute;
+    bottom: 43px;
+    right: -37px;
+    background-color: $color-link;
+    color: $color-white;
+    padding: 5px 30px;
+    transform: rotate(-45deg);
+    user-select: none;
+  }
+}
