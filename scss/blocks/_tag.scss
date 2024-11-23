@@ -1,0 +1,12 @@
+.tag {
+  color: $color-text-main;
+  background-color: $color-bg-main;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 6px 16px 6px 6px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  user-select: none;
+}
