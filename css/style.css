@@ -541,38 +541,38 @@ textarea {
           user-select: none;
 }
 
-.about-info__heading {
+.info-block__heading {
   color: #949494;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 16px;
   margin: 0 0 10px;
 }
-.about-info__wrapper {
+.info-block__wrapper {
   display: flex;
   gap: 20px;
 }
-.about-info__icon-wrapper {
+.info-block__icon-wrapper {
   width: 50px;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.about-info__right {
+.info-block__right {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   gap: 5px;
 }
-.about-info__title {
+.info-block__title {
   color: #000;
   font-size: 16px;
   line-height: 20px;
   font-weight: 600;
 }
-.about-info__subtitle {
+.info-block__subtitle {
   color: #666;
   font-size: 16px;
   line-height: 20px;
@@ -592,6 +592,11 @@ textarea {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+.history__info-blocks {
+  display: grid;
+  gap: 20px;
+  margin: 0 0 40px;
 }
 
 .spoiler {
