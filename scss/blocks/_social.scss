@@ -1,4 +1,13 @@
 .social {
+  &--big {
+    .social__link {  
+      svg {
+        width: 48px;
+        height: 48px;
+      }
+    }
+  }
+
   &__list {
     list-style-type: none;
     margin: 0;

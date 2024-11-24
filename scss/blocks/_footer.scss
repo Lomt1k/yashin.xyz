@@ -1,0 +1,14 @@
+.footer {
+  padding: 0 0 10px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__copy {
+    color: $color-text-secondary;
+    font-size: 16px;
+    user-select: none;
+  }
+}
