@@ -14,4 +14,8 @@ $color-white:              #fff;
 $color-gainsboro:          #ddd;
 
 // font family
-$ff-noto:   "Noto sans", "Arial", sans-serif;
+$ff-noto:                  "Noto sans", "Arial", sans-serif;
+
+// Breakpoints
+$vp-tablet:                 1023px;
+$vp-mobile:                 767px;

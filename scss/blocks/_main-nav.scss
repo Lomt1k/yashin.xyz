@@ -1,4 +1,8 @@
 .main-nav {
+  @include vp-767 {
+    display: none;
+  }
+
   &__list {
     list-style-type: none;
     margin: 0;

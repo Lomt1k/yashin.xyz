@@ -6,6 +6,11 @@
     line-height: 46px;
     font-weight: 700;
     margin: 0 0 20px;
+
+    @include vp-1023 {
+      font-size: 36px;
+      line-height: 40px;
+    }
   }
 
   &__list {

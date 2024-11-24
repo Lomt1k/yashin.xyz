@@ -31,6 +31,10 @@
     position: relative;
     outline: none;
 
+    @include vp-1023 {
+      padding: 20px 110px 20px 40px;
+    }
+
     &::before {
       content: '';
       position: absolute;
@@ -64,7 +68,23 @@
     line-height: 28px;
     font-weight: 500;
     width: 15%;
-    text-align: center;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+
+    @include vp-1023 {
+      flex-direction: column;
+      width: 10%;
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+
+  &__summary-year-separator {
+    @include vp-1023 {
+      display: none;
+    }
   }
 
   &__summary-arrow {
@@ -79,10 +99,19 @@
     color: $color-text-main;
     font-size: 24px;
     line-height: 30px;
+
+    @include vp-1023 {
+      font-size: 20px;
+      line-height: 24px;
+    }
   }
 
   &__content {
     padding: 20px 110px 20px calc(15% + 60px);
+
+    @include vp-1023 {
+      padding: 10px 110px 10px calc(10% + 60px);
+    }
   }
 
   &__content-text {
@@ -90,6 +119,11 @@
     font-size: 18px;
     line-height: 22px;
     margin: 0 0 20px;
+
+    @include vp-1023 {
+      font-size: 16px;
+      line-height: 20px;
+    }
   }
 
   &__content-list {    
@@ -104,6 +138,11 @@
     color: $color-text-main;
     font-size: 18px;
     line-height: 22px;
+
+    @include vp-1023 {
+      font-size: 16px;
+      line-height: 20px;
+    }
   }
 
   &__content-title {
@@ -114,6 +153,10 @@
     line-height: 16px;
     font-weight: 700;
     margin: 0 0 10px;
+
+    @include vp-1023 {
+      font-size: 13px;
+    }
   }
 
   &__content-tag-list {

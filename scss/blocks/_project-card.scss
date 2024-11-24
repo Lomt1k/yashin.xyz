@@ -8,12 +8,21 @@
   gap: 20px;
   height: 100%;
 
+  @include vp-1023 {
+    padding: 20px;
+  }
+
   &__title {
     color: $color-text-main;
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
     margin: 0;
+
+    @include vp-1023 {
+      font-size: 20px;
+      line-height: 24px;
+    }
   }
 
   &__date {
@@ -44,6 +53,11 @@
     font-size: 20px;
     line-height: 24px;
     margin: 0;
+
+    @include vp-1023 {
+      font-size: 16px;
+      line-height: 20px;
+    }
   }
 
   &__secondary-description {
@@ -52,6 +66,10 @@
     line-height: 18px;
     font-style: italic;
     margin: 0;
+
+    @include vp-1023 {
+      font-size: 13px;
+    }
   }
 
   &__tools-wrapper {
@@ -73,6 +91,10 @@
     line-height: 16px;
     font-weight: 700;
     margin: 0 0 10px;
+
+    @include vp-1023 {
+      font-size: 13px;
+    }
   }
 
   &__tools-list {

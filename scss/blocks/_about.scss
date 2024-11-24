@@ -15,11 +15,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    @include vp-1023 {
+      padding: 20px;
+    }
   }
 
   &__person-photo {
     margin: 0 0 40px;
     border-radius: 50%;
+
+    @include vp-1023 {
+      width: 150px;
+      height: 150px;
+    }
   }
 
   &__person-name {
@@ -28,7 +37,12 @@
     line-height: 28px;
     font-weight: 700;
     margin: 0 0 15px;
-    user-select: none;    
+    user-select: none;
+    
+    @include vp-1023 {
+      font-size: 20px;
+      line-height: 24px;
+    }
   }
 
   &__person-description {
@@ -45,10 +59,18 @@
     padding: 40px;
     position: relative;
     overflow: hidden;
+
+    @include vp-1023 {
+      padding: 20px;
+    }
   }
 
   &__text-wrapper {
     margin: 0 0 40px;
+
+    @include vp-1023 {
+      margin: 0 0 30px;
+    }
   }
 
   &__text {
@@ -56,11 +78,20 @@
     font-size: 20px;
     line-height: 24px;
     margin: 0 0 10px;
+
+    @include vp-1023 {
+      font-size: 18px;
+      line-height: 22px;
+    }
   }
 
   &__info-blocks {
     display: grid;
     gap: 40px;
+
+    @include vp-1023 {
+      gap: 30px;
+    }
   }
 
   &__sticker {

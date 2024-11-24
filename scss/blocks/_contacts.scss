@@ -6,6 +6,11 @@
     line-height: 46px;
     font-weight: 700;
     margin: 0 0 20px;
+
+    @include vp-1023 {
+      font-size: 36px;
+      line-height: 40px;
+    }
   }
 
   &__content {
@@ -16,6 +21,10 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+
+    @include vp-1023 {
+      padding: 20px;
+    }
   }
 
   &__description {
@@ -23,5 +32,10 @@
     font-size: 24px;
     line-height: 30px;
     margin: 0;
+
+    @include vp-1023 {
+      font-size: 20px;
+      line-height: 24px;
+    }
   }
 }
