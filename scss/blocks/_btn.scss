@@ -11,18 +11,23 @@
   font-size: 20px;
   line-height: 20px;
   font-weight: 600;
-  transition: background-color 150ms linear;
+  transition: color 150ms linear;
   transition: opacity 150ms linear;
   outline: none;
 
   &:hover,
   &:focus-visible {
-    opacity: 90%;
+    opacity: 85%;
   }
 
   &--secondary {
     border: 2px solid $color-link;
     background-color: unset;
     color: $color-text-main;
+
+    &:hover,
+    &:focus-visible {
+      color: $color-link;
+    }
   }
 }
