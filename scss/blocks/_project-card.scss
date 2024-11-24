@@ -12,6 +12,15 @@
     padding: 20px;
   }
 
+  @include vp-767 {
+    gap: 15px;
+  }
+
+  &--last {
+    align-items: center;
+    text-align: center;
+  }
+
   &__title {
     color: $color-text-main;
     font-size: 24px;
@@ -22,6 +31,12 @@
     @include vp-1023 {
       font-size: 20px;
       line-height: 24px;
+    }
+
+    @include vp-767 {
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
     }
   }
 
@@ -58,6 +73,11 @@
       font-size: 16px;
       line-height: 20px;
     }
+
+    @include vp-767 {
+      font-size: 13px;
+      line-height: 16px;
+    }
   }
 
   &__secondary-description {
@@ -70,6 +90,11 @@
     @include vp-1023 {
       font-size: 13px;
     }
+
+    @include vp-767 {
+      font-size: 12px;
+      line-height: 16px;
+    }
   }
 
   &__tools-wrapper {
@@ -81,6 +106,10 @@
     flex-wrap: wrap;
     gap: 8px;
     margin: 0 0 20px;
+
+    @include vp-767 {
+      margin: 0 0 10px;
+    }
   }
 
   &__tools-title {
@@ -95,6 +124,11 @@
     @include vp-1023 {
       font-size: 13px;
     }
+
+    @include vp-767 {
+      font-size: 12px;
+      margin: 0 0 5px;
+    }
   }
 
   &__tools-list {
@@ -103,5 +137,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+
+    @include vp-767 {
+      gap: 5px;
+    }
   }
 }
