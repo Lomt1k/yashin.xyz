@@ -9,3 +9,9 @@
     @content;
   }
 }
+
+@mixin vp-499 {
+  @media (max-width: $vp-mobile-small) {
+    @content;
+  }
+}

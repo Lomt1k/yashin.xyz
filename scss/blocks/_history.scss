@@ -1,7 +1,7 @@
 .history {
   padding: 0 0 60px;
 
-  @include vp-767 {
+  @include vp-499 {
     padding: 0 0 40px;
   }
 
@@ -16,7 +16,7 @@
       line-height: 40px;
     }
 
-    @include vp-767 {
+    @include vp-499 {
       font-size: 28px;
       line-height: 32px;
       margin: 0 0 15px;
