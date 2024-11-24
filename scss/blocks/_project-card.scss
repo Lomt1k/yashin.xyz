@@ -1,0 +1,85 @@
+.project-card {
+  background-color: $color-bg-secondary;
+  border-radius: 8px;
+  padding: 32px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+
+  &__title {
+    color: $color-text-main;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  &__date {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: $color-text-addition;
+    user-select: none;    
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+  }
+
+  &__stack {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: $color-text-secondary;
+    user-select: none;    
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    color: $color-text-secondary;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+  }
+
+  &__secondary-description {
+    color: $color-text-addition;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: italic;
+    margin: 0;
+  }
+
+  &__tools-wrapper {
+    margin: 0 0 20px;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 20px;
+  }
+
+  &__tools-title {
+    display: block;
+    color: $color-text-addition;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    margin: 0 0 10px;
+  }
+
+  &__tools-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

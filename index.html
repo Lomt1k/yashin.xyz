@@ -10,14 +10,14 @@
   <header class="header">
     <div class="container">
       <div class="header__wrapper">
-        <a class="header__logo" href="/">Владимир Яшин</a>
+        <a class="header__logo" href="#">Владимир Яшин</a>
         <nav class="main-nav">
           <ul class="main-nav__list">
             <li class="main-nav__list-item">
-              <a class="main-nav__link" href="/">Главная</a>
+              <a class="main-nav__link" href="#">Обо мне</a>
             </li>
             <li class="main-nav__list-item">
-              <a class="main-nav__link" href="/blog/">Блог</a>
+              <a class="main-nav__link" href="#projects">Проекты</a>
             </li>
             <li class="main-nav__list-item">
               <a class="main-nav__link" href="https://github.com/Lomt1k" target="_blank">Github</a>
@@ -62,7 +62,7 @@
                   <b>Привет!</b> Давай знакомиться. Я&nbsp;являюсь разработчиком игр с&nbsp;большим опытом работы в&nbsp;крупных продуктовых IT-компаниях.
                 </p>
                 <p class="about__text">
-                  В&nbsp;последнее время я&nbsp;также заинтересовался Web-разработкой. Поэтому решил создать данный сайт. На&nbsp;нём размещена основная информация обо мне и&nbsp;моих проектах.
+                  В&nbsp;последнее время я&nbsp;заинтересовался Web-разработкой. Поэтому решил создать данный сайт. На&nbsp;нём размещена основная информация обо мне и&nbsp;моих проектах.
                 </p>
               </div>
               <div class="about__info-blocks">
@@ -465,6 +465,127 @@
               </details>
             </li>
           </ul>          
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="projects__wrapper">
+          <h2 class="projects__heading">Мои проекты</h2>
+          <ul class="projects__list">
+            <li class="projects__list-item">
+              <div class="project-card">
+                <h3 class="project-card__title">yashin.xyz</h3>
+                <span class="project-card__date">Обновлено 24.11.2024</span>
+                <span class="project-card__stack">Frontend</span>                
+                <p class="project-card__description">
+                  Да! Сайт, на&nbsp;котором вы&nbsp;находитесь&nbsp;&mdash; это Pet-проект.
+                  В&nbsp;рамках работы над ним я&nbsp;отточил свои навыки вёрстки.
+                </p>
+                <p class="project-card__secondary-description">
+                  Дизайн вдохновлён сайтом <a href="https://www.skillbox.ru">Skillbox</a>
+                </p>
+                <div class="project-card__links">
+                  <a class="btn btn--secondary" href="https://github.com/Lomt1k/Films" target="_blank">
+                    <svg width="32" height="32">
+                      <use xlink:href="img/tools.svg#icon-github"></use>
+                    </svg>
+                    GitHub
+                  </a>
+                </div>
+                <div class="project-card__tools-wrapper">
+                  <span class="project-card__tools-title">Используемые технологии</span>
+                  <ul class="project-card__tools-list">
+                    <li class="tag">
+                      <svg width="32" height="32">
+                        <use xlink:href="img/tools.svg#icon-html"></use>
+                      </svg>
+                      HTML
+                    </li>
+                    <li class="tag">
+                      <svg width="32" height="32">
+                        <use xlink:href="img/tools.svg#icon-css"></use>
+                      </svg>
+                      CSS
+                    </li>
+                    <li class="tag">
+                      <svg width="32" height="32">
+                        <use xlink:href="img/tools.svg#icon-sass"></use>
+                      </svg>
+                      SASS
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="projects__list-item">
+              <div class="project-card">
+                <h3 class="project-card__title">Films</h3>
+                <span class="project-card__date">Обновлено 22.11.2024</span>
+                <span class="project-card__stack">Frontend</span>
+                <p class="project-card__description">
+                  Небольшое веб-приложение, которое помогает влюбленным парам определиться с&nbsp;фильмом для просмотра, избавляя их&nbsp;от&nbsp;мук выбора.
+                </p>
+                <p class="project-card__secondary-description">
+                  Создано для закрытия реальной потребности
+                </p>
+                <div class="project-card__links">
+                  <a class="btn" href="/apps/films">Открыть</a>
+                  <a class="btn btn--secondary" href="https://github.com/Lomt1k/yashin.xyz" target="_blank">
+                    <svg width="32" height="32">
+                      <use xlink:href="img/tools.svg#icon-github"></use>
+                    </svg>
+                    GitHub
+                  </a>
+                </div>
+                <div class="project-card__tools-wrapper">
+                  <span class="project-card__tools-title">Используемые технологии</span>
+                  <ul class="project-card__tools-list">
+                    <li class="tag">
+                      <svg width="32" height="32">
+                        <use xlink:href="img/tools.svg#icon-html"></use>
+                      </svg>
+                      HTML
+                    </li>
+                    <li class="tag">
+                      <svg width="32" height="32">
+                        <use xlink:href="img/tools.svg#icon-css"></use>
+                      </svg>
+                      CSS
+                    </li>
+                    <li class="tag">
+                      <svg width="32" height="32">
+                        <use xlink:href="img/tools.svg#icon-javascript"></use>
+                      </svg>
+                      JavaScript
+                    </li>
+                    <li class="tag">
+                      <svg width="32" height="32">
+                        <use xlink:href="img/tools.svg#icon-sass"></use>
+                      </svg>
+                      SASS
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="projects__list-item projects__list-item--last">
+              <div class="project-card">
+                <h3 class="project-card__title">Больше проектов</h3>
+                <p class="project-card__description">
+                  Полный список проектов доступен на&nbsp;странице мооего git-репозитория
+                </p>
+                <div class="project-card__links">
+                  <a class="btn btn--secondary" href="https://github.com/Lomt1k" target="_blank">
+                    <svg width="32" height="32">
+                      <use xlink:href="img/tools.svg#icon-github"></use>
+                    </svg>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>

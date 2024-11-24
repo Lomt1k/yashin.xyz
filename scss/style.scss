@@ -7,16 +7,19 @@
 @import "global/_fonts";
 @import "global/_reboot";
 @import "global/_visually-hidden";
-@import "global/container";
+@import "global/_container";
 
 ///
 /// Blocks
 ///
-@import "blocks/header";
-@import "blocks/main-nav";
-@import "blocks/social";
-@import "blocks/about";
-@import "blocks/info-block";
-@import "blocks/history";
-@import "blocks/spoiler";
-@import "blocks/tag";
+@import "blocks/_btn";
+@import "blocks/_header";
+@import "blocks/_main-nav";
+@import "blocks/_social";
+@import "blocks/_about";
+@import "blocks/_info-block";
+@import "blocks/_history";
+@import "blocks/_spoiler";
+@import "blocks/_tag";
+@import "blocks/_projects";
+@import "blocks/_project-card";

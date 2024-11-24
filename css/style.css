@@ -400,6 +400,32 @@ textarea {
   padding: 0 20px;
 }
 
+.btn {
+  background-color: #a449ea;
+  color: #fff;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 12px;
+  font-family: "Noto sans", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  transition: background-color 150ms linear;
+  transition: opacity 150ms linear;
+  outline: none;
+}
+.btn:hover, .btn:focus-visible {
+  opacity: 90%;
+}
+.btn--secondary {
+  border: 2px solid #a449ea;
+  background-color: unset;
+  color: #000;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -723,4 +749,106 @@ textarea {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+}
+
+.projects {
+  margin: 0 0 60px;
+}
+.projects__heading {
+  font-size: 42px;
+  line-height: 46px;
+  font-weight: 700;
+  margin: 0 0 20px;
+}
+.projects__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+.projects__list-item--last:nth-child(odd) {
+  grid-column: 1/-1;
+}
+
+.project-card {
+  background-color: #FFF;
+  border-radius: 8px;
+  padding: 32px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+.project-card__title {
+  color: #000;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+.project-card__date {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  color: #949494;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 600;
+}
+.project-card__stack {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: #666;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.project-card__description {
+  color: #666;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}
+.project-card__secondary-description {
+  color: #949494;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: italic;
+  margin: 0;
+}
+.project-card__tools-wrapper {
+  margin: 0 0 20px;
+}
+.project-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 20px;
+}
+.project-card__tools-title {
+  display: block;
+  color: #949494;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+.project-card__tools-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }/*# sourceMappingURL=style.css.map */

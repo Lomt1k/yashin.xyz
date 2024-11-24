@@ -1,0 +1,28 @@
+.btn {
+  background-color: $color-link;
+  color: $color-white;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 12px;
+  font-family: $ff-noto;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  transition: background-color 150ms linear;
+  transition: opacity 150ms linear;
+  outline: none;
+
+  &:hover,
+  &:focus-visible {
+    opacity: 90%;
+  }
+
+  &--secondary {
+    border: 2px solid $color-link;
+    background-color: unset;
+    color: $color-text-main;
+  }
+}
