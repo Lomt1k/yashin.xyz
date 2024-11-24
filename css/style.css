@@ -372,7 +372,7 @@ img {
 }
 
 a {
-  color: #a449ea;
+  color: #469BE6;
   text-decoration: none;
 }
 
@@ -402,7 +402,7 @@ textarea {
 }
 
 .btn {
-  background-color: #a449ea;
+  background-color: #469BE6;
   color: #fff;
   padding: 8px 20px;
   display: flex;
@@ -435,12 +435,12 @@ textarea {
   opacity: 85%;
 }
 .btn--secondary {
-  border: 2px solid #a449ea;
+  border: 2px solid #469BE6;
   background-color: unset;
   color: #000;
 }
 .btn--secondary:hover, .btn--secondary:focus-visible {
-  color: #a449ea;
+  color: #469BE6;
 }
 .btn--store-link {
   padding: 0;
@@ -529,7 +529,7 @@ textarea {
   outline: none;
 }
 .main-nav__link:hover, .main-nav__link:focus-visible {
-  color: #a449ea;
+  color: #469BE6;
 }
 
 .social--big .social__link svg {
@@ -699,7 +699,7 @@ textarea {
   position: absolute;
   bottom: 43px;
   right: -38px;
-  background-color: #a449ea;
+  background-color: #469BE6;
   color: #fff;
   padding: 5px 30px;
   transform: rotate(-45deg);
