@@ -27,7 +27,7 @@
     cursor: pointer;
     user-select: none;
     padding: 30px 110px 30px 40px;
-    transition: background-color 100ms linear;
+    transition: background-color $transition-300-linear;
     position: relative;
     outline: none;
 
@@ -60,7 +60,6 @@
     &:hover,
     &:focus-visible {
       background-color: $color-gainsboro;
-      transition: background-color 300ms linear;
 
       .spoiler__summary-arrow {
         color: $color-white;

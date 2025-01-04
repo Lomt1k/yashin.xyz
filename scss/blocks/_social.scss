@@ -30,6 +30,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    outline: none;
+    transition: opacity $transition-300;
 
     svg {
       width: 32px;
@@ -38,7 +40,6 @@
 
     &:hover,
     &:focus-visible {
-      outline: none;
       opacity: 70%;
     }
   }

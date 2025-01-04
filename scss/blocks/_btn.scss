@@ -11,8 +11,7 @@
   font-size: 20px;
   line-height: 20px;
   font-weight: 600;
-  transition: color 150ms linear;
-  transition: opacity 150ms linear;
+  transition: opacity $transition-300, color $transition-300;
   outline: none;
 
   @include vp-1023 {
