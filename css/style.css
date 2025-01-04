@@ -1168,6 +1168,7 @@ textarea {
 }
 .project-card--last {
   align-items: center;
+  justify-content: center;
   text-align: center;
 }
 .project-card__title {
