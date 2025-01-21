@@ -1251,7 +1251,7 @@ textarea {
   }
 }
 .project-card__tools-wrapper {
-  margin: 0 0 20px;
+  margin: auto 0 20px 0;
 }
 .project-card__links {
   display: flex;
